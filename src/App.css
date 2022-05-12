@@ -1,0 +1,13 @@
+.navbar-nav {
+    font-size: 18px;
+}
+
+.filter_buttons {
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 420px) {
+    .filter_buttons {
+        flex-direction: column;
+    }
+}
